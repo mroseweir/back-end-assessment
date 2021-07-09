@@ -1,0 +1,35 @@
+button {
+    display: inline-block;
+    margin: 0 auto;
+    padding: .5em .7em;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 50;
+    text-align: center;
+    transition: all 0.3s;
+    background-color: transparent;
+    color: black;
+    /* box-shadow: rgb(255, 110, 110); */
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.692);
+    color: rgb(255, 255, 255);
+    border: 2px solid red;
+}
+
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 90, 102, 0.568);
+    border: 10px black;
+}
+
+div {
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.411);
+    border-radius: 5px;
+}
